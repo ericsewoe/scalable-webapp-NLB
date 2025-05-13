@@ -27,7 +27,7 @@ This project demonstrates how to deploy a scalable web application on AWS using 
   ```
 
 📸 *EC2 Instance Launch Configuration*  
-![EC2 Instance Setup](path/to/your/ec2-instance-screenshot.png)
+![EC2 Instance Setup](.screenshots/ec2-launch.png)
 
 ---
 
