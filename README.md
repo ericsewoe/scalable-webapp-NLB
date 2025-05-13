@@ -27,7 +27,7 @@ This project demonstrates how to deploy a scalable web application on AWS using 
   ```
 
 📸 *EC2 Instance Launch Configuration*  
-![EC2 Instance Setup](.scalable-webapp-NLB/screenshots/ec2-launch.png)
+![EC2 Instance Setup](./screenshots/ec2-launch.png)
 
 ---
 
@@ -39,7 +39,7 @@ This project demonstrates how to deploy a scalable web application on AWS using 
 - Leave other settings as default and create the launch template
 
 📸 *Launch Template Creation*  
-![Launch Template](path/to/your/launch-template-screenshot.png)
+![Launch Template](./screenshots/launch-template.png)
 
 ---
 
@@ -51,7 +51,7 @@ This project demonstrates how to deploy a scalable web application on AWS using 
 - Register the existing instance and create the target group
 
 📸 *Target Group Configuration*  
-![Target Group](path/to/your/target-group-screenshot.png)
+![Target Group](./screenshots/target-group.png)
 
 ---
 
@@ -67,7 +67,7 @@ This project demonstrates how to deploy a scalable web application on AWS using 
 - Create the Load Balancer
 
 📸 *Network Load Balancer Setup*  
-![Network Load Balancer](path/to/your/nlb-screenshot.png)
+![Network Load Balancer](./screenshots/web-app-NLB.png)
 
 ---
 
@@ -87,7 +87,7 @@ This project demonstrates how to deploy a scalable web application on AWS using 
 - Create the Auto Scaling Group
 
 📸 *Auto Scaling Group Configuration*  
-![Auto Scaling Group](path/to/your/asg-screenshot.png)
+![Auto Scaling Group](./screenshots/auto-scaling-group.png)
 
 ---
 
@@ -115,7 +115,9 @@ Refresh the page to see responses from different instances.
 - A new instance should be launched automatically by the Auto Scaling Group
 
 📸 *Auto Scaling in Action*  
-![Auto Scaling Verification](path/to/your/autoscaling-verification.png)
+![Auto Scaling Verification](./screenshots/scaling-verify-1.png)
+![Auto Scaling Verification](./screenshots/scaling-verify-2.png)
+![Auto Scaling Verification](./screenshots/scaling-verify-3.png)
 
 ---
 
