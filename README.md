@@ -26,7 +26,8 @@ This project demonstrates how to deploy a scalable web application on AWS using 
   echo "<h1>Hello from $(hostname -f)</h1>" > /var/www/html/index.html
   ```
 
-📸 *EC2 Instance Launch Configuration*  
+📸 *EC2 Instance Launch Configuration*
+ 
 ![EC2 Instance Setup](./screenshots/ec2-launch.png)
 
 ---
@@ -38,7 +39,8 @@ This project demonstrates how to deploy a scalable web application on AWS using 
 - **Name:** `web-app-LT`  
 - Leave other settings as default and create the launch template
 
-📸 *Launch Template Creation*  
+📸 *Launch Template Creation* 
+
 ![Launch Template](./screenshots/launch-template.png)
 
 ---
@@ -50,7 +52,8 @@ This project demonstrates how to deploy a scalable web application on AWS using 
 - **Name:** `web-app-TG`  
 - Register the existing instance and create the target group
 
-📸 *Target Group Configuration*  
+📸 *Target Group Configuration*
+
 ![Target Group](./screenshots/target-group.png)
 
 ---
@@ -66,7 +69,8 @@ This project demonstrates how to deploy a scalable web application on AWS using 
 - **VPC & Subnets:** Select the same VPC and choose at least 2 subnets  
 - Create the Load Balancer
 
-📸 *Network Load Balancer Setup*  
+📸 *Network Load Balancer Setup*
+
 ![Network Load Balancer](./screenshots/web-app-NLB.png)
 
 ---
@@ -86,7 +90,8 @@ This project demonstrates how to deploy a scalable web application on AWS using 
   - Scale in when CPU < 40%  
 - Create the Auto Scaling Group
 
-📸 *Auto Scaling Group Configuration*  
+📸 *Auto Scaling Group Configuration*
+
 ![Auto Scaling Group](./screenshots/auto-scaling-group.png)
 
 ---
@@ -116,7 +121,9 @@ Refresh the page to see responses from different instances.
 
 📸 *Auto Scaling in Action*  
 ![Auto Scaling Verification](./screenshots/scaling-verify-1.png)
+
 ![Auto Scaling Verification](./screenshots/scaling-verify-2.png)
+
 ![Auto Scaling Verification](./screenshots/scaling-verify-3.png)
 
 ---
